@@ -27,19 +27,23 @@ nav a {
     border: 2px solid #ddd;
     border-radius: 20px;
 }
-.iconup {
+
+a img {
     width: 20px;
     padding: 5px;
     vertical-align: middle;
     margin: 10px;
-    transition: border; background-color: 200ms;
+    transition: border; 
+    background-color: 200ms;
 }
 
-a:hover{
+.iconup:hover{
     border-color: yellow;
+    padding: 20px;
 }
-a:active {
+.iconup:active {
     border-color: orange;
+    padding: 20px;
 }
 
 main {
